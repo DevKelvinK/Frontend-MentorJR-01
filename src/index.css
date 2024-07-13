@@ -1,0 +1,57 @@
+:root {
+    /* 10px = 1rem */
+    font-size: 62.5%;
+
+    /* Cores (Colors) */
+
+    --Pink: hsl(322, 100%, 66%);
+    --LightPink: hsl(321, 100%, 78%);
+    --LightRed: hsl(0, 100%, 63%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --VeryPaleBlue: hsl(207, 100%, 98%);
+
+    --White: hsl(0, 0%, 100%);
+    --BoxShadow: hsl(0, 0%, 86%);
+}
+
+* {
+    box-sizing: border-box;
+    outline: transparent;
+
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+
+    color: var(--VeryDarkCyan);
+    background-color: var(--White);
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+body,
+input,
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}

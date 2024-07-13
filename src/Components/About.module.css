@@ -1,0 +1,125 @@
+.sectionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 3rem 10rem;
+    gap: 3rem;
+
+    background-color: var(--VeryPaleBlue);
+}
+
+.sectionContainer img {
+    width: 50%;
+}
+
+.sectionContainer .infos { 
+    width: 49rem;
+}
+
+.sectionContainer .infos h2 {
+    font-size: 3.5rem;
+}
+
+.sectionContainer .infos p {
+    width: 100%;
+    margin-top: 1.8rem;
+
+    font-size: 1.5rem;
+}
+
+.customSection {
+    flex-direction: row-reverse;
+
+    margin-block: 8rem;
+
+    background-color: var(--white);
+}
+
+/* Backgrounds imgs DESKTOP */
+
+.bgTop1 {
+    height: 165px;
+
+    background: url(/src/assets/bg-section-top-desktop-1.svg);
+}
+
+.bgTop2 {
+    height: 156px;
+
+    background: url(/src/assets/bg-section-top-desktop-2.svg);
+}
+
+.bgBottom1 {
+    height: 139px;
+
+    background: url(/src/assets/bg-section-bottom-desktop-1.svg)
+}
+
+.bgBottom2 {
+    height: 139px;
+
+    background: url(/src/assets/bg-section-bottom-desktop-2.svg)
+}
+
+/* RESPONSIVE TABLET */
+
+@media screen and (max-width: 900px){
+    .sectionContainer {
+        padding-inline: 5rem;
+    }
+}
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width: 760px){
+    .sectionContainer {
+        text-align: center;
+        flex-direction: column-reverse;
+        
+        padding-block: 5rem;
+        gap: 7rem;
+    }
+
+    .sectionContainer img {
+        width: 100%;
+    }
+    
+    .sectionContainer .infos {
+        width: 115%;
+    }
+    
+    .sectionContainer .infos p {
+        font-size: 1.4rem;
+    }
+
+    .sectionContainer .infos h2 {
+        font-size: 2.4rem;
+    }
+    
+    /* Backgrounds imgs MOBILE */
+    
+    .bgTop1 {
+        height: 112px;
+    
+        background: url(/src/assets/bg-section-top-mobile-1.svg);
+    }
+    
+    .bgTop2 {
+        height: 103px;
+    
+        background: url(/src/assets/bg-section-top-mobile-2.svg);
+    }
+    
+    .bgBottom1 {
+        height: 52px;
+    
+        background: url(/src/assets/bg-section-bottom-mobile-1.svg)
+    }
+    
+    .bgBottom2 {
+        height: 101px;
+    
+        background: url(/src/assets/bg-section-bottom-mobile-2.svg)
+    }
+}

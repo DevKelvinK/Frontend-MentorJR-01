@@ -1,0 +1,20 @@
+.card img {
+    width: 4rem;
+    padding-left: .5rem;
+}
+
+.card strong {
+    display: block;
+
+    margin-bottom: .5rem;
+
+    font-size: 7rem;
+}
+
+.card p {
+    text-align: center;
+
+    font-size: 1.7rem;
+
+    color: hsl(192, 100%, 9%, 0.50);
+}

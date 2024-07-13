@@ -1,0 +1,128 @@
+main a {
+  display: block;
+  text-decoration: none;
+
+  padding: 2rem 7rem;
+  border: 2px solid var(--Pink);
+  border-radius: 3rem;
+  box-shadow: 0 1rem 1rem var(--BoxShadow);
+
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  color: var(--White);
+  background-color: var(--Pink);
+
+  transition: 0.3s;
+}
+
+main a:hover,
+main a:focus {
+  border: 2px solid var(--LightPink);
+
+  background-color: var(--LightPink);
+}
+
+main a:focus {
+  border: 2px solid var(--Pink);
+}
+
+.sectionHeroCta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 15rem;
+}
+
+.sectionHeroCta h1 {
+  font-size: 3.5rem;
+}
+
+.sectionHeroCta p {
+  text-align: center;
+
+  max-width: 50rem;
+  margin-block: 2rem 3.5rem;
+}
+
+.sectionHeroCta img {
+  width: 100%;
+  max-width: 75.5rem;
+  margin-top: 8rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 755px;
+  margin: 9rem auto;
+  padding-inline: 5.5rem;
+}
+
+.cta {
+  text-align: center;
+
+  margin-block: 10rem;
+}
+
+.cta h2 {
+  margin-bottom: 3rem;
+
+  font-size: 3rem;
+}
+
+/* RESPONSIVE TABLET */
+
+@media screen and (max-width: 900px) {
+  .sectionHeroCta h1 {
+    font-size: 3.2rem;
+  }
+
+  .sectionHeroCta img {
+    padding-inline: 3rem;
+  }
+}
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width: 760px) {
+  main a {
+    padding: 1.2rem 3.5rem;
+
+    font-size: 1.2rem;
+  }
+
+  .sectionHeroCta {
+    margin-top: 13rem;
+  }
+
+  .sectionHeroCta h1 {
+    max-width: 75%;
+
+    font-size: 2.4rem;
+  }
+
+  .sectionHeroCta p {
+    max-width: 84%;
+    margin-block: 2rem 5rem;
+
+    font-size: 1.4rem;
+  }
+
+  .sectionHeroCta img {
+    margin-top: 10rem;
+  }
+
+  .cards {
+    align-items: center;
+    flex-direction: column;
+
+    gap: 10rem;
+  }
+
+  .cta h2 {
+    font-size: 2.4rem;
+  }
+}

@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    max-width: 1440px;
+}
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width: 760px){
+    .container {
+        max-width: 375px;
+        min-width: 320px;
+    }
+}
