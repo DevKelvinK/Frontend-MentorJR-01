@@ -20,7 +20,7 @@ export function Form() {
     const input = document.querySelector("input");
 
     input.value = "";
-    console.log("Formulário Enciado! (Form Sent!)");
+    console.log("Formulário Enviado! (Form Sent!)");
     console.log(`Email: ${data.email}`);
   }
 
