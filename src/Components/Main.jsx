@@ -67,7 +67,9 @@ export function Main() {
       <div className={styles.cta} id="buttonCTA">
         <h2>Ready To Build Your Community?</h2>
         <button disabled="disabled">
-            <a href="https://www.youtube.com/@KK-DoZeroAoSenior" target="_blank">Get Started For Free</a>
+          <a href="https://www.youtube.com/@KK-DoZeroAoSenior" target="_blank">
+            Get Started For Free
+          </a>
         </button>
       </div>
     </main>

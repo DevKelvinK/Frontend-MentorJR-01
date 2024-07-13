@@ -1,13 +1,13 @@
-import styles from './Card.module.css'
+import styles from "./Card.module.css";
 
-export function Card({ src, score, description}) {
-    return (
-        <article className={styles.card}>
-            <img src={src} />
+export function Card({ src, score, description }) {
+  return (
+    <article className={styles.card}>
+      <img src={src} />
 
-            <strong>{score}</strong>
+      <strong>{score}</strong>
 
-            <p>{description}</p>
-        </article>
-    )
+      <p>{description}</p>
+    </article>
+  );
 }

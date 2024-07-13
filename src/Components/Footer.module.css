@@ -1,112 +1,112 @@
 .bgTop {
-    height: 158px;
+  height: 158px;
 
-    background: url(/src/assets/bg-footer-top-desktop.svg);
+  background: url(/src/assets/bg-footer-top-desktop.svg);
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    padding: 7.6rem 15rem;
-    gap: 5rem;
+  padding: 7.6rem 15rem;
+  gap: 5rem;
 
-    color: var(--White);
-    background-color: var(--VeryDarkCyan);
+  color: var(--White);
+  background-color: var(--VeryDarkCyan);
 }
 
 footer p {
-    width: 27rem;
-    margin-block: 2rem;
-    
-    font-size: 1.1rem;
-    font-weight: 600;
-    line-height: 2rem;
+  width: 27rem;
+  margin-block: 2rem;
+
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 2rem;
 }
 
 .contactSection {
-    width: 24rem;
+  width: 24rem;
 }
 
 .contactSection .logo {
-    width: 18rem;
+  width: 18rem;
 }
 
 .contact {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    margin-top: 1.2rem;
+  margin-top: 1.2rem;
 }
 
 .contact img {
-    width: 1.5rem;
-    margin-right: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .contact span {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .socialMediaIcons {
-    display: flex;
+  display: flex;
 
-    margin-top: 6rem;
-    gap: 1.6rem;
+  margin-top: 6rem;
+  gap: 1.6rem;
 }
 
 .socialMediaIcons svg {
-    font-size: 2.6rem;
-    
-    color: var(--White);
+  font-size: 2.6rem;
 
-    transition: .3s;
+  color: var(--White);
+
+  transition: 0.3s;
 }
 
 .socialMediaIcons .iconFacebook:hover svg,
 .socialMediaIcons .iconFacebook:focus svg {
-    color: #0866ff;
+  color: #0866ff;
 }
 
 .socialMediaIcons .iconInstagram:hover svg,
 .socialMediaIcons .iconInstagram:focus svg {
-    color: #ce125b;
+  color: #ce125b;
 }
 
 .socialMediaIcons .iconTwitter:hover svg,
 .socialMediaIcons .iconTwitter:focus svg {
-    color: #00acee;
+  color: #00acee;
 }
 
 .formSection {
-    width: 38rem;
+  width: 38rem;
 }
 
 .formSection h3 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 
-    font-size: 1.8rem;
-    font-weight: 700;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 /* RESPONSIVE TABLET */
 
-@media screen and (max-width:900px) {
-    footer {
-        justify-content: center;
+@media screen and (max-width: 900px) {
+  footer {
+    justify-content: center;
 
-        padding-inline: 7rem;
-    }
+    padding-inline: 7rem;
+  }
 }
 
 /* RESPONSIVE MOBILE */
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .bgTop {
     height: 53px;
 
     background: url(/src/assets/bg-footer-top-mobile.svg);
-  }  
+  }
 
   footer {
     flex-direction: column-reverse;
@@ -122,26 +122,26 @@ footer p {
   }
 
   .contactSection {
-      width: 100%;
-    }
-    
-    .contactSection p {
-        margin-block: 1rem 3rem;
-    }
+    width: 100%;
+  }
 
-    .contact {
-        margin-top: 1.5rem;
-    }
+  .contactSection p {
+    margin-block: 1rem 3rem;
+  }
 
-    .socialMediaIcons {
-        margin-top: 4rem;
-    }
-    
-    .socialMediaIcons svg {
-        font-size: 2.8rem;
-    }
+  .contact {
+    margin-top: 1.5rem;
+  }
 
-    .formSection {
-        width: 100%;
-    }
+  .socialMediaIcons {
+    margin-top: 4rem;
+  }
+
+  .socialMediaIcons svg {
+    font-size: 2.8rem;
+  }
+
+  .formSection {
+    width: 100%;
+  }
 }
