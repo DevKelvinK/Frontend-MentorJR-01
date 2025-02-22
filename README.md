@@ -1,4 +1,4 @@
-# MentorJR_01
+# Front-end Mentor Challenge
 
 ## Descrição
 Este é um projeto de front-end desenvolvido como parte dos desafios do Front-end Mentor. O objetivo é aprimorar habilidades de desenvolvimento web criando interfaces de usuário a partir de designs fornecidos.
